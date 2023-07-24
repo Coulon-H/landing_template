@@ -1,0 +1,73 @@
+#header {
+  padding :1em;
+  height: 100vh;
+  justify-content: center;
+}
+
+#header h3 {
+  padding : 0.5em;
+  font-size: 1.6em;
+}
+
+table {
+  margin : 0.5em 0 0;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  padding: 0.5em;
+  border-radius: 10px;
+  text-align: start;
+  border-spacing: 1px;
+}
+
+th {
+  background-color: var(--secondary-accent);
+  font-size: 1.2em;
+  margin: 1em 0 0;
+  color: white;
+  text-align: start;
+}
+
+td {
+  border-bottom: 1px solid var(--secondary-accent);
+}
+
+tr > td:first-child,
+thead > tr > th:first-child {
+  padding-left: 0.8em;
+  width: 35%;
+}
+
+tr th:first-child {
+  border-top-left-radius: 0.3em;
+  border-bottom-left-radius: 0.3em;
+}
+
+tr th:last-child {
+  border-top-right-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
+}
+
+th {
+  font-size: 1.6em;
+}
+
+tr > td {
+  font-size: 1.4em;
+}
+
+.card-partner {
+  width:30%;
+}
+
+.card-partner .card-img {
+  width: 100%;
+  height: 50%;
+}
+
+.card-partner .card-img img {
+  border-radius: 0.8em;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
